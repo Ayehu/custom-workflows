@@ -1,6 +1,6 @@
 # Common Linux Sys. Admin. Tasks over SSH
 
-The target server for these templates is an Ubuntu 18.04 installation running within the Linux Subsystem for Windows 10 locally on my laptop.  Adjust as needed.
+The target server for these templates is an Ubuntu 18.04 installation running within the Windows Subsystem for Linux for Windows 10.  This WSL instance is running on the same host as the Ayehu NG Server.  Adjust as needed.
 
 Each template contains a brief description, along with a more detailed form of documentation which also contains a break-down of each command utilized for each Activity.  A note has also been attached to each Activity to explain its function.  To see more about how each Workflow operates, check the Documentation section for each.
 
