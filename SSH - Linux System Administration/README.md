@@ -67,4 +67,4 @@ This is achieved with the following command:
 
 `service --status-all 2> /dev/null | sed 's/\[ - \]/Down/g' | sed 's/\[ + \]/Up/g' | awk '{ print $2"\t"$1 }'`
 
-...where the `--status-all` flag returns a list of system services and their corresponding statuses. The `2> /dev/null` redirect ignores `STDERR` output. The results are then piped to a series of `sed` commands that parse out unwanted characters and then finally piped to `awk` where the second column is printed before the first column and a tab is added between each to be used a delimiter. These results are then converted into a table.
+...where the `--status-all` flag returns a list of system services and their corresponding statuses. The `2> /dev/null` redirect ignores `STDERR` output. The results are then piped to a series of `sed` commands that replace the `[ + ]` and `[ - ]` values with `Up` and `Down`, respectively.  The results are then finally piped to `awk` where the second column is printed before the first column and a tab is added between each to be used a delimiter. These results are then converted into a table.
