@@ -61,7 +61,7 @@ This is achieved with the following command:
 ...where the `-n 1` flag for `top` allows the program to exit after one iteration, rather than be ran in its default interactive mode. The output is then piped to `grep` to filter the line containing the string *Cpu*. That output is finally piped to `awk` where the first column is ignored, piped to `awk` again where custom labels are used for the first column of each row (i.e. **User**, **System**, etc.) and a tab is added before the second column on each row that printed to act as a delimiter. These results are then converted into a table.
 
 ## SSH – Linux – Service Status
-Simple template using the service command to query the status of all available system services using the service command.
+Simple template using the `service` command to query the status of all available system services using the service command.
 
 This is achieved with the following command:
 
