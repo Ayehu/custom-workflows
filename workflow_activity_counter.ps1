@@ -8,6 +8,13 @@
 #
 # Sample output:
 # Total activities: 4
+#
+# Alternatively, the following single command will print an integer representing the total number of activities found in the
+# specified WorkFlow XML file:
+# > (Get-Content "C:\full\path\to\WorkFlow.xml" | Select-String -Pattern '; id=&quot;' -AllMatches).matches.count
+#
+# Sample output:
+# 4
 
 $workflow_file = $args[0]
 
