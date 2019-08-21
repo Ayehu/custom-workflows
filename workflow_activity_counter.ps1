@@ -1,5 +1,7 @@
-$workflow_file = $args[0];
+# PowerShell implementation of the Perl script "workflow_activity_counter.pl" that prints only the total activity count.
 
-$count = (Get-Content "$workflow_file" | Select-String -Pattern '; id=&quot;' -AllMatches).matches.count;
+$workflow_file = $args[0]
 
-Write-Host "Total activities: $count" -nonewline;
+$count = (Get-Content "$workflow_file" | Select-String -Pattern '; id=&quot;' -AllMatches).matches.count
+
+Write-Host "Total activities: $count" -nonewline
