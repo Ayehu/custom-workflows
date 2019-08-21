@@ -1,6 +1,9 @@
+# workflow_activity_counter.ps1
+# Derek Pascarella <derekp@ayehu.com>
+# Ayehu, Inc.
+#
 # PowerShell implementation of the Perl script "workflow_activity_counter.pl" that prints only the total activity count.  At the
 # PowerShell prompt, this script would be executed as follows:
-#
 # > C:\full\path\to\workflow_activity_counter.ps1 C:\full\path\to\WorkFlow.xml
 #
 # Sample output:
