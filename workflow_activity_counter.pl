@@ -9,8 +9,8 @@
 # > perl "C:\full\path\to\workflow_activity_counter.pl" "C:\full\path\to\WorkFlow.xml"
 #
 # Sample output:
-# WorkFlow File: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
-# WorkFlow Name: SSH - Linux - Service Status
+# WorkFlow file: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
+# WorkFlow name: SSH - Linux - Service Status
 # Total activities: 4
 
 # Our modules.
@@ -46,6 +46,6 @@ $workflow_name =~ s/^\s+|\s+$//g;
 $count = () = $workflow_xml =~ /$pattern/gi;
 
 # Print results.
-print "WorkFlow File: $workflow_file\n";
-print "WorkFlow Name: $workflow_name\n";
+print "WorkFlow file: $workflow_file\n";
+print "WorkFlow name: $workflow_name\n";
 print "Total activities: $count\n";
