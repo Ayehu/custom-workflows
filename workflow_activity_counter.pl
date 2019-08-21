@@ -7,7 +7,11 @@
 #
 # This script can be executed on Windows using the Strawberry Perl distribution (http://strawberryperl.com/) and executed at the
 # Windows command prompt as follows:
-# > perl "C:\full\path\to\workflow_activity_counter.pl" "C:\full\path\to\WorkFlow.xml"
+# > perl C:\full\path\to\workflow_activity_counter.pl C:\full\path\to\WorkFlow.xml
+#
+# Note that a shortcut can be created with the path "perl C:\full\path\to\workflow_activity_counter.pl", after which WorkFlow XML
+# files can be dragged from the file explorer directly onto the shortcut.  This would launch a command prompt window and display the
+# activity count results.  To utilize this option, simply add "<STDIN>;" to the last line of this script.
 #
 # Sample output:
 # WorkFlow file: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
