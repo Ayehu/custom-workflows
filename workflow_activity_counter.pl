@@ -4,6 +4,14 @@
 # Written by Derek Pascarella at Ayehu, Inc.
 #
 # Count the number of activities in a given WorkFlow XML file.  The full file path should be passed to this script as an argument.
+#
+# This script can be executed on Windows using the Strawberry Perl distribution (http://strawberryperl.com/) and executed at the Windows command prompt as follows:
+# > perl "C:\full\path\to\workflow_activity_counter.pl" "C:\full\path\to\WorkFlow.xml"
+#
+# Sample output:
+# WorkFlow File: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
+# WorkFlow Name: SSH - Linux - Service Status
+# Total activities: 4
 
 # Our modules.
 use strict;
