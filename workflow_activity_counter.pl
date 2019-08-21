@@ -10,9 +10,9 @@
 # Windows command prompt as follows:
 # > perl C:\full\path\to\workflow_activity_counter.pl C:\full\path\to\WorkFlow.xml
 #
-# Note that a shortcut can be created with the path "perl C:\full\path\to\workflow_activity_counter.pl", after which WorkFlow XML
-# files can be dragged from the file explorer directly onto the shortcut.  This would launch a command prompt window and display the
-# activity count results.  If utilizing this shortcut method, simply add "<STDIN>;" to the last line of this script.
+# For Windows users, note that a shortcut can be created with the path "perl C:\full\path\to\workflow_activity_counter.pl", after which
+# WorkFlow XML files can be dragged from the file explorer directly onto the shortcut.  This would launch a command prompt window and
+# display the activity count results.  If utilizing this shortcut method, simply add "<STDIN>;" to the last line of this script.
 #
 # Sample output:
 # WorkFlow file: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
