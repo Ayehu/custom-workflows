@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 #
 # workflow_activity_counter.pl
+# Usage: workflow_activity_counter.pl <workflow_file.xml>
+# 
 # Derek Pascarella <derekp@ayehu.com>
 # Ayehu, Inc.
 #
@@ -15,9 +17,9 @@
 # display the activity count results.  If utilizing this shortcut method, simply add "<STDIN>;" to the last line of this script.
 #
 # Sample output:
-# WorkFlow file: C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
-# WorkFlow name: SSH - Linux - Service Status
-# Total activities: 4
+# WorkFlow file:	C:\SSH - Linux System Administration\SSH - Linux - Service Status.xml
+# WorkFlow name:	SSH - Linux - Service Status
+# Total activities:	4
 
 # Our modules.
 use strict;
@@ -52,6 +54,6 @@ $workflow_name =~ s/^\s+|\s+$//g;
 $count = () = $workflow_xml =~ /$pattern/gi;
 
 # Print results.
-print "WorkFlow file: $workflow_file\n";
-print "WorkFlow name: $workflow_name\n";
-print "Total activities: $count\n";
+print "WorkFlow file:\t$workflow_file\n";
+print "WorkFlow name:\t$workflow_name\n";
+print "Total activities:\t$count\n";
