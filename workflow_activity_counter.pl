@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+#
+# workflow_activity_counter.pl
+# Written by Derek Pascarella at Ayehu, Inc.
+#
+# Count the number of activities in a given WorkFlow XML file.  The full file path should be passed to this script as an argument.
 
 # Our modules.
 use strict;
