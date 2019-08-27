@@ -15,3 +15,5 @@ This template continues by showing an interaction with an API by using the `HTTP
 `Basic %login_credentials%`
 
 ...where `Basic` is a static portion of this parameter and `login_credentials` contains the base-64 encoded credentials we created with the PowerShell code. The template continues by showing the JSON results being stored and converted into a table.
+
+Note that this WorkFlow template will not function unless you have an active ZenDesk login, which must be stored in the `store_credentials` activity.  Furthermore, the organization ID specified in the `http_request` activity must be replaced with a valid ID from your own account.
