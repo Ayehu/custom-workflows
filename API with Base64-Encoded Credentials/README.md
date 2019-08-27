@@ -1,6 +1,6 @@
 # API with Base64-Encoded Credentials
 
-Simple template to demonstrate how to base64-encode a string containing login credentials to be used with an API, such as ZenDesk. Note that there are many APIs that require the username and password combination to be transmitted in this format. This is achieved by utilizing the following Powershell code:
+Simple template to demonstrate how to base64-encode a string containing login credentials to be used with an API, such as ZenDesk. Note that there are many APIs that require the username and password combination to be transmitted in this format. This is achieved by utilizing the following PowerShell code:
 
 ```
 [string]$string_plaintext = "%login_credentials%"
