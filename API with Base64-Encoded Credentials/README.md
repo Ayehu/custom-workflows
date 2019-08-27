@@ -8,7 +8,7 @@ $string_encoded = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetByte
 echo $string_encoded
 ```
 
-...where `string_plaintext` contains the original username/password combination, and `string_encoded` stores those credentials in base64.
+...where the original username/password combination stored in the WorkFlow variable `login_credentials` is stored in the PowerShell code as `string_plaintext`, and `string_encoded` stores those credentials in base64.
 
 This template continues by showing an interaction with an API by using the `HTTPRequest` activity, in this case the one provided by ZenDesk. Here, we send the base64-encoded credentials in the header as the value of the `Authorization` parameter. This value is as follows:
 
