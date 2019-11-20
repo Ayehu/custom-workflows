@@ -1,6 +1,5 @@
 # Low Disk Space Remediation
-### Clear Windows Update cache and delete all logs (system, application, event, etc.) if a monitored disk's available free space drops
-below a specified threshold.
+### Clear Windows Update cache and delete all logs (system, application, event, etc.) if a monitored disk's available free space drops below a specified threshold.
 
 This use-case is broken down into three (3) workflows:
 * Parent Workflow: Detect Low Disk Space
