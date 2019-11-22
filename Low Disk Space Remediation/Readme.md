@@ -11,7 +11,7 @@ In the parent workflow (Detect Low Disk Space), modify the activities that use a
 * diskUsageThreshold (from setUsageThreshold activity): Change from default value of *45* to the maximum usage threshold (in percent) of your choice.
 
 In the first child workflow (Clear Windows Update Cache), modify the activities that use a specific host to point to the host which you'll be monitoring.  Additionally, modify the following variables to match your needs:
-* winUpdateCacheFolder (from setCacheFolder activity): Change from default value of *C:\Windows\SoftwareDistribution\Download\* to the path where Windows Updates stores cached files on the system you'll be monitoring.
+* winUpdateCacheFolder (from setCacheFolder activity): Change from default value of <i>C:\Windows\SoftwareDistribution\Download\</i> to the path where Windows Updates stores cached files on the system you'll be monitoring.
 
 In the second child workflow (Clear Windows Logs), modify the activities that use a specific host to point to the host which you'll be monitoring.  Additionally, modify the following variables to match your needs:
 * logFolder (from setLogFolder activity): Change from default value of *C:\Windows\System32\winevt\Logs\* to the path where Windows stores logs on the system you'll be monitoring.
