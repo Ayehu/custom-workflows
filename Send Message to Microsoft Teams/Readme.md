@@ -12,7 +12,7 @@ Our first step is to configure the Incoming Webhook connector on the Microsoft T
 <br><br>
 From there, locate the channel you'd like to configure.  Then, right-click on its name and on the menu that appears, click the Connectors entry.
 <br><br>
-<a href="https://support.ayehu.com/hc/article_attachments/360054752913/mceclip0.png">
+<img src="https://support.ayehu.com/hc/article_attachments/360054752913/mceclip0.png">
 <br><br>
 On the window that appears, click the Add button to the right of the Incoming Webook entry.
 <br><br>
