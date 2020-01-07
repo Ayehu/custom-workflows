@@ -1,4 +1,4 @@
-<h1>About these Workflow</h1>
+<h1>About these Workflows</h1>
 These workflows are triggered when a SolarWinds alert is received by Ayehu NG stating that IIS is down.  They then take the following steps:
 <ul>
 <li>They create a record in the ITSM system (either ServiceNow or Cherwell)</li>
