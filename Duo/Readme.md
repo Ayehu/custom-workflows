@@ -7,4 +7,4 @@
   <li>Execute the parent workflow and watch as the "duoAuthResponse" DisplayValue activity displays either "allow" or "deny" based on the response received by the Duo user upon receiving their authorization request.</li>
 </ul>
 
-<b><i>Detailed tutorial coming soon...</i></b>
+<b>Detailed Tutorial:</b> <a href="https://github.com/Ayehu/custom-workflows/raw/master/Duo/Tutorial%20-%20Integrating%20with%20Duo%20for%20MFA%20(multi-factor%20authentication).pdf">https://github.com/Ayehu/custom-workflows/raw/master/Duo/Tutorial%20-%20Integrating%20with%20Duo%20for%20MFA%20(multi-factor%20authentication).pdf</a>
