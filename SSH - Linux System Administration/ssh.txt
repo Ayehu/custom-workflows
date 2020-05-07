@@ -1,0 +1,2 @@
+<add key="SSHEncryptionAlgorithms" value="aes256-ctr,aes256-cbc,aes192-ctr,aes192-cbc,aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,cast128-cbc,blowfish-cbc,arcfour,arcfour128,arcfour256" />
+	<add key="SFTPEncryptionAlgorithms" value="aes256-ctr,aes256-cbc,aes192-ctr,aes192-cbc,aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,cast128-cbc,blowfish-cbc,arcfour,arcfour128,arcfour256" />
