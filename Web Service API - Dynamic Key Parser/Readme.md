@@ -6,4 +6,4 @@ In this example, there’s a MemorySet activity storing a sample from the “Raw
 <br><br>
 As seen in the workflow, the next step is to convert the key-value pairs in the XML to a table.  Then, loop through each column and extract the column name for the “key name”, and the column’s value for the “key value”.
 <br><br>
-Since the “Raw” XML contains three (3) unwanted fields (auth, sessionid, root_id), those keys are ignored in the if-else branch at the end of the workflow.  The DisplayValue activity on the left if-else branch represents the portion of the workflow where those key-value pairs would be taken and utilized for various tasks.
+The ReplaceString and DeleteMemoryTableColumns activities are used to remove unwanted keys from the XML before being converted to a table.
