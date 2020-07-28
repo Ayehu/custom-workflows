@@ -1,0 +1,6 @@
+Extracting Column from Table
+
+In Ayehu NG, There exists a powerful and convenient activity for getting Row from the table(GetRows).
+This activity fetches a particular row from the table. But we don't have the same activity for Column
+many times we need to fetch the only column which can be achieved by using two activity RotateTable and GetRows.
+I have creaated workflow with proper usage of this activity for getting the column.
