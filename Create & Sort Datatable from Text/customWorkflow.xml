@@ -1,0 +1,41 @@
+<TotalExport sourceSystem="NG">
+  <Workflows>
+    <WorkflowInfo Pnumber="163" Name="customWorkflow" Description="" Xoml="&lt;SequentialWorkflowActivity xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/workflow&quot; xmlns:x=&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot; x:Name=&quot;CustomWorkflow&quot; x:Class=&quot;WorkflowDesignerControl.CustomWorkflow&quot; /&gt;" XomlStatus="2" Details="" WorkflowType="0" WorkflowFolderId="0" Permissions="&lt;NewDataSet&gt;&lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&lt;xs:complexType&gt;&lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&lt;xs:element name=&quot;resultSet&quot;&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name=&quot;Type&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Number&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Read&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Write&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Run&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Owner&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;/xs:sequence&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:choice&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:schema&gt;&lt;resultSet&gt;&lt;Type&gt;1&lt;/Type&gt;&lt;Number&gt;1&lt;/Number&gt;&lt;Read&gt;true&lt;/Read&gt;&lt;Write&gt;true&lt;/Write&gt;&lt;Run&gt;true&lt;/Run&gt;&lt;Owner&gt;true&lt;/Owner&gt;&lt;/resultSet&gt;&lt;/NewDataSet&gt;" ErrorHandling="" CurrentRevisionNumber="1" WorkflowParentId="0" DateCreated="2020-09-29T13:27:44.403" DateCreatedUser="1" DateModified="2020-09-29T13:27:44.610" DateModifiedUser="1" />
+  </Workflows>
+  <Objects>
+    <Hosts />
+    <ErrorHandlers />
+    <ErrorMessages />
+    <MessageTemplates />
+    <Sites />
+    <Developments />
+    <Users>
+      <User Unumber="1" Uname="Nehag" FName="Neha" LName="Gupta" Email="nehag@deloitte.com" Pnumber2="" Role="1" Password1="8uNEU1PsizJFl+j4vOduaFypJTMBqQkAiPVl93J9J7ETnphytvZBBlugveAI7+Vg2B2HfbV95yCMKb17D6KpQUynIX5/ow==" Deleted="0" Skypeuser="" Msnuser="" Icquser="" Aoluser="" Modulenumber="0" Getalerts="0" CurrentTAG="0" TagReset="0" SMSLength="0" Site="0" UserColor="255,249,91" SitesInCycleRotation="0" SecondsPauseCycle="120" TableRowsMultiSitePage="6" TableRowsDefaultPage="0" ActiveDirectoryID="" Office="" ListenerClientIP="" EmployeeNumber="" />
+    </Users>
+    <Groups />
+    <UsersGroupsArray />
+    <Domains />
+    <Commands />
+    <Classifications />
+    <Incidents />
+    <TimeFrames />
+    <Variables />
+    <Modules />
+    <Conditions />
+    <ConditionArrays />
+    <ConditionObjects />
+    <SoapWebServices />
+    <Triggers />
+    <TriggerConditionArrays />
+    <LogCategory />
+    <LogTriggerCategory />
+    <Schedules />
+    <CustomActivities />
+    <ActivitiesSource />
+    <ScheduleCategoriesRelations />
+  </Objects>
+  <ObjectsRelations>
+    <ObjectRelation ObjectID="1" Type="User" ParentWorkFlowID="163" />
+  </ObjectsRelations>
+  <ExportKeys />
+</TotalExport>
