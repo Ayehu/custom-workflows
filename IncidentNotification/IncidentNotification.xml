@@ -10,7 +10,7 @@
     <Sites />
     <Developments />
     <Users>
-      <User Unumber="1" Uname="JamieG99" FName="Jamie" LName="Gilbart" Email="jamie.gilbart@capgemini.com" Pnumber2="" Role="1" Password1="5O3/zVmhRWyWrVaDD7HSL6xPExtaexsphKfJtvRicpjWwze2jHR9yC+AyBBADs8o5hHXw2JdBPXbJXXUA9aJJIf87bAPOw==" Deleted="0" Skypeuser="" Msnuser="" Icquser="" Aoluser="" Modulenumber="0" Getalerts="0" CurrentTAG="0" TagReset="0" SMSLength="0" Site="0" UserColor="255,249,91" SitesInCycleRotation="0" SecondsPauseCycle="120" TableRowsMultiSitePage="6" TableRowsDefaultPage="0" ActiveDirectoryID="" Office="" ListenerClientIP="" EmployeeNumber="" />
+      <User Unumber="1" Uname="JamieG99" FName="Jamie" LName="Gilbart" Email="" Pnumber2="" Role="1" Password1="5O3/zVmhRWyWrVaDD7HSL6xPExtaexsphKfJtvRicpjWwze2jHR9yC+AyBBADs8o5hHXw2JdBPXbJXXUA9aJJIf87bAPOw==" Deleted="0" Skypeuser="" Msnuser="" Icquser="" Aoluser="" Modulenumber="0" Getalerts="0" CurrentTAG="0" TagReset="0" SMSLength="0" Site="0" UserColor="255,249,91" SitesInCycleRotation="0" SecondsPauseCycle="120" TableRowsMultiSitePage="6" TableRowsDefaultPage="0" ActiveDirectoryID="" Office="" ListenerClientIP="" EmployeeNumber="" />
     </Users>
     <Groups />
     <UsersGroupsArray />
