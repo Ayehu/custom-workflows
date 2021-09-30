@@ -1,0 +1,46 @@
+<TotalExport sourceSystem="NG">
+  <Workflows>
+    <WorkflowInfo Pnumber="190" Name="GetLinuxProcess" Description="" Xoml="&lt;SequentialWorkflowActivity xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/workflow&quot; xmlns:x=&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot; x:Name=&quot;CustomWorkflow&quot; x:Class=&quot;WorkflowDesignerControl.CustomWorkflow&quot;&gt;&#xD;&#xA;  &lt;StartSSHSession x:Name=&quot;startSSHSession1&quot; activityLicenseType=&quot;1&quot; id=&quot;274&quot; name=&quot;StartSSHSession&quot; visible=&quot;True&quot; disabled=&quot;False&quot; isFavorite=&quot;False&quot; isJsonValid=&quot;True&quot; IsValid=&quot;True&quot; Timeout=&quot;00:01:00&quot; TimeInSeconds=&quot;60&quot; RecoveryMethodSelection=&quot;{x:Null}&quot; TargetModuleID=&quot;&quot; TargetModuleName=&quot;&quot; Path=&quot;{x:Null}&quot; DisplayName=&quot;Start SSH Session&quot; Description=&quot;Starts an SSH session&quot; Port=&quot;22&quot; MaxSessionTime=&quot;00:10:00&quot; HostId=&quot;5&quot; HostName=&quot;br.com.sondaativas/dc1sup02&quot; UserName=&quot;&quot; Password=&quot;&quot; StartSession=&quot;SSH&quot; OSType=&quot;0&quot; certtype=&quot;&quot; certpath=&quot;&quot; TypeName=&quot;StartSSHSession&quot; /&gt;&#xD;&#xA;  &lt;SendSSHCommand x:Name=&quot;sendSSHCommand1&quot; activityLicenseType=&quot;1&quot; id=&quot;271&quot; name=&quot;SendSSHCommand&quot; visible=&quot;True&quot; disabled=&quot;False&quot; isFavorite=&quot;False&quot; isJsonValid=&quot;True&quot; IsValid=&quot;True&quot; Timeout=&quot;00:01:00&quot; TimeInSeconds=&quot;60&quot; RecoveryMethodSelection=&quot;{x:Null}&quot; TargetModuleID=&quot;&quot; TargetModuleName=&quot;&quot; Path=&quot;{x:Null}&quot; DisplayName=&quot;Send SSH Command&quot; Description=&quot;Sends a single SSH protocol command to an open SSH session&quot; SessionName=&quot;startSSHSession1&quot; Comm=&quot;ps -ef&quot; Prompt=&quot;&quot; HostId=&quot;-1&quot; HostName=&quot;{x:Null}&quot; OSType=&quot;0&quot; TypeName=&quot;SendSSHCommand&quot; /&gt;&#xD;&#xA;&lt;/SequentialWorkflowActivity&gt;" XomlStatus="0" Details="" DateLic="34385064303975645753487875595347585630595A78516E636E586F6D4F335A58337773526C426F343064564844367062626E5966624B2F76336F414D54563552356976304C496651597575354E536D71505A764F3732586E4832325257496E304977596670514264484E4E336336732B4635745A6F3759326B4645697774776A4A49585257684144573661464F502F5361654A457653377057644D534C564A334170626D386835776C79695A73483749664175546D3849535A7957697355624B70333935626377655475766D4A50494A74546B366556524E426C466C43524A34524B4879514E6E61527537335138536A6C33457935324436506845414F62516C2B5A786D7146415A6B5037425632326A79436B5133575A4A523665676A623739362F4C517656766F6970566B425942736A614C6D322F487944647A757A2F55" WorkflowType="0" WorkflowFolderId="23" Permissions="&lt;NewDataSet&gt;&lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&lt;xs:complexType&gt;&lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&lt;xs:element name=&quot;resultSet&quot;&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name=&quot;Type&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Number&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Read&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Write&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Run&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;xs:element name=&quot;Owner&quot; type=&quot;xs:boolean&quot; minOccurs=&quot;0&quot; /&gt;&lt;/xs:sequence&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:choice&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:schema&gt;&lt;resultSet&gt;&lt;Type&gt;1&lt;/Type&gt;&lt;Number&gt;3&lt;/Number&gt;&lt;Read&gt;true&lt;/Read&gt;&lt;Write&gt;true&lt;/Write&gt;&lt;Run&gt;true&lt;/Run&gt;&lt;Owner&gt;true&lt;/Owner&gt;&lt;/resultSet&gt;&lt;/NewDataSet&gt;" ErrorHandling="" CurrentRevisionNumber="1" WorkflowParentId="0" DateCreated="2021-09-30T12:14:51.327" DateCreatedUser="3" DateModified="2021-09-30T12:17:58.923" DateModifiedUser="3" />
+  </Workflows>
+  <Objects>
+    <Hosts>
+      <Host Hnumber="5" Hname="br.com.sondaativas/dc1sup02" Hdescription="" Adminu="sondaops" Adminp="574E687932513647683552416E4E71683455556255513D3D" Deleted="0" DeviceType="0" Site="0" IPAddress="192.0.2.160" Platform="5" InstanceMode="0" SNMPMIB="" SSHCertificate="" MacAddress="" CredentialsInherit="0" ExecutorID="8" AutoCreated="0" IsMasterHost="0" MasterHostId="0" />
+    </Hosts>
+    <ErrorHandlers />
+    <ErrorMessages />
+    <MessageTemplates />
+    <Sites />
+    <Developments />
+    <Users>
+      <User Unumber="3" Uname="marcos.fontana" FName="Marcos" LName="Fontana" Email="" Pnumber2="" Role="9" Password1="08FrXA32zsDzfF+ACGzn7sfIXZaSpvhmZJYFc2B1F/eH8gbYCtZOR9+sS4ebSDxHq4fOVWsnrbYRy5oOMmi/R+DIbtXZ" Deleted="0" Modulenumber="0" ActiveDirectoryID="" ListenerClientIP="" EmployeeNumber="" />
+    </Users>
+    <Groups />
+    <UsersGroupsArray />
+    <Domains />
+    <Commands />
+    <Classifications />
+    <Incidents />
+    <TimeFrames />
+    <Variables />
+    <Modules>
+      <Module Mnumber="8" Mtype="10" Mname="Executer SONDA ATIVAS" Mdescp="" Monitored="0" Popserver="" Popuser="Administrator" Poppass="734F617632585A336B6B70674B2B74566770633863506343755157503850307250315A4D727152486453733D" Smtpserver="" Smtpout="" Incom="" Outcom="" Voicerepeat="0" Voicespeed="0" Voicetype="" Voicetypes="" Voicevolume="0" Smscom="" Lastupdate="2021-09-22T21:13:35.190" Notactive="0" Lic1="" Lic2="" Keypress="" Alerttype="0" reporttf="0" Deleted="0" PhoneLines="0" MtypeID="15" Params="loglevel=3 logsdirectory=Logs lognumberofdaystopreserve=14 dateformat=us" Mode="0" CreateDate="2021-09-17T11:45:24.613" TypeName="Executor" />
+    </Modules>
+    <Conditions />
+    <ConditionArrays />
+    <ConditionObjects />
+    <SoapWebServices />
+    <Triggers />
+    <TriggerConditionArrays />
+    <LogCategory />
+    <LogTriggerCategory />
+    <Schedules />
+    <CustomActivities />
+    <ActivitiesSource />
+    <ScheduleCategoriesRelations />
+  </Objects>
+  <ObjectsRelations>
+    <ObjectRelation ObjectID="3" Type="User" ParentWorkFlowID="190" />
+    <ObjectRelation ObjectID="5" Type="Host" ParentWorkFlowID="190" />
+  </ObjectsRelations>
+  <ExportKeys />
+</TotalExport>
